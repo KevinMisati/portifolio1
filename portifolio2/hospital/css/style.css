@@ -1,0 +1,134 @@
+button{
+    border: none;
+    outline: none;
+}
+
+:root{
+    --main-coral:coral;
+    --main-bluish:#cbf7f48c;
+
+}
+.btn{
+    height: ;
+    background: var(--main-coral);
+    outline: none;
+    text-transform: capitalize;
+    padding: .5rem 1rem;
+    font-size: 1.5rem;
+}
+.btn:hover{
+    background:var(--main-bluish) ;
+    border: 2px solid var(--main-coral);
+
+}
+section{
+    margin: 0 0 3rem 0;
+}
+.section-heading{
+    margin-bottom: 2rem;
+
+}
+/* header section */
+.bar{
+    height: 3px;
+    width: 2rem;
+    background: black;
+    margin: 6px;
+}
+.navbar-toggler{
+    outline: none !important; 
+    border: none !important;
+}
+li{
+    list-style: none;
+    margin-left: 2rem;
+    padding: 1rem;
+}
+a{
+    text-decoration: none !important;
+}
+@media screen and (min-width:760px){
+    .btn{
+    padding: .75rem 1.5rem;
+    font-size: 1.7rem;
+    }
+}
+/* =================end of header section================== */
+
+/* ============hero section=================== */
+.hero{
+    height: calc(100vh - 225px);
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    text-align: center;
+    max-width: 100vw;
+    background: url(../img/ear.jpg) center/cover fixed no-repeat 
+}
+/* ============end of hero section=================== */
+
+/* ====================about section=================== */
+.img-container{
+
+    border-radius: 5px;
+    object-fit: contain;
+    
+   /*  box-shadow: 2px 2px 15px gray; */
+}
+.img-container:hover img{
+    box-shadow: 10px 10px 15px gray;
+} 
+.img-container img{
+    margin: 0;
+    object-fit: contain;
+    outline:2px white red;
+    box-shadow: 5px 2px 15px gray;
+}
+.about-info{
+    margin: 1rem 0 1rem;
+    align-self: center;
+    justify-self: center;
+}
+/* ====================end of about section=================== */
+
+/* ==========================footer section======================== */
+
+/*================================== services section======================= */
+.services{
+background-color: var(--main-bluish);
+opacity: ;
+}
+.service-info{
+    margin:1rem auto 1rem auto;
+    padding: .2rem;
+}
+/*==================================end of  services section=================== */
+footer{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer p, footer a{
+    color: coral;
+}
+footer a:hover{
+    color: coral !important;
+}
+.fa-facebook,
+.fa-twitter,
+.fa-instagram,
+.fa-whatsapp
+{
+    color: coral !important;
+}
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-whatsapp:hover,
+footer p:hover 
+{
+    color: coral !important;
+    transform: scale(1.2);
+}
+/* ==========================end of footer section======================== */

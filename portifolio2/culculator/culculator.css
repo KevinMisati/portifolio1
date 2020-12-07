@@ -1,0 +1,50 @@
+body,html{
+    background-color: white;
+    color: brown;
+    height: 100%;
+    width: 100%;
+    background-color: #eeeeee;
+}
+.container{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    
+    background-color:#eeeeee;
+}
+
+.display{
+    height: 50px;
+    width: 100%;
+    background-color: rgba(141, 230, 238, 0.692);
+    border-radius: 5px;
+    border: 10px ridge currentColor;
+}
+
+button{
+    background-color: cyan;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow:2px 2px 2px gray,
+                1.5px 1.5px 1.5px gray,
+                -1.5px -1.5px -1.5px gray,
+                -2px -2px -2px gray
+                 ;
+    
+
+}
+
+#equal{
+    background-color: green;
+}
+
+#clear{
+    background-color: red;
+}
+
+#delete{
+    background-color:rgba(141, 230, 238, 0.692);}
+
